@@ -1,0 +1,30 @@
+{
+  "name": "@mcprodrigues/js-quiz-cli",
+  "version": "1.0.4",
+  "description": "Uma ferramenta de linha de comando interativa para testar conhecimentos em JavaScript com um quiz divertido.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "js-quiz": "./index.js"
+  },
+  "keywords": [
+    "javascript",
+    "quiz",
+    "cli",
+    "developer",
+    "programming"
+  ],
+  "author": "Maria Clara",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^10.1.8",
+    "nanospinner": "^1.1.0"
+  }
+}
